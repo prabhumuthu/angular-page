@@ -1,0 +1,7 @@
+<label>Uname</label> &emsp;&emsp;&emsp;&emsp;
+<input type="text" [(ngModel)]="uname">
+<br><br>
+<label>UPassword</label> &emsp;&emsp;&emsp;&emsp;
+<input type="password" [(ngModel)]="upwd">
+<br><hr>
+<button (click)="login({'uname':uname,'upwd':upwd})">login</button>
